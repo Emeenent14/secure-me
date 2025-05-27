@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #ddd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    margin: 5rem 7%;
+}
+
+.main-box .sub-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-box .sub-box .logo {
+    background-color: transparent;
+}
+
+.main-box .sub-box .logo a {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: aqua;
+    text-shadow: 1px 3px 5px black;
+}
+
+span {
+    font-size: 3rem;
+}
+
+.main-box .sub-box ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7rem;
+}
+
+.main-box .sub-box ul li {
+    margin: 1.5rem 1rem;
+}
+
+.main-box .sub-box ul li a {
+    color: darkblue;
+    transition: .5s;
+    font-size: 1.2rem;
+}
+
+.main-box .sub-box ul li a:hover {
+    color: aqua;
+    transition: .5s;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid aqua;
+    padding: .5rem;
+    font-size: 1.3rem;
+
+}
+
+.main-box .sub-box .buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-box .sub-box .buttons img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+    margin: .5rem .5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.main-box .box {
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem;
+}
+
+.main-box .box .left-box {
+    width: 53%;
+    margin: 1rem;
+    text-align: start;
+}
+
+.main-box .box .left-box h3 {
+    color: darkblue;
+    font-size: 1.3rem;
+}
+
+.main-box .box .left-box h1 {
+    color: aqua;
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 3rem;
+    text-shadow: 1px 3px 5px black;
+}
+
+.main-box .box .right-box {
+    width: 53%;
+    margin: 3rem;
+    text-align: start;
+    border-left: 5px solid aqua;
+    padding: 10px;
+}
+
+.main-box .box .right-box .content {
+    margin-top: 3rem;
+}
+
+.main-box .box .right-box .content p {
+    font-size: 1.2rem;
+    color: darkblue;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.boxx .heading {
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.boxx .heading h1 {
+    color: darkblue;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.boxx .heading p {
+    color: darkblue;
+}
+
+.boxy .boxxy {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 5rem;
+    text-align: center;
+    padding: 7px;
+
+}
+
+.boxy .boxxy .boxs {
+    padding: 10px;
+}
+
+.boxy .boxxy .boxs .images img {
+    height: 5rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.boxs {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 40vh;
+    width: 40vh;
+}
+
+.boxy .boxxy .boxs h4 {
+    color: darkblue;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.boxy .boxxy .boxs p {
+    color: darkblue;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+.bread .butter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bread .butter .left-side {
+    width: 53%;
+    margin: 3rem;
+}
+
+.bread .butter .left-side h1 {
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+
+.bread .butter .left-side p {
+    font-size: 1.1rem;
+    color: blue;
+    margin-top: 1rem;
+}
+
+.bread .butter .right-side {
+    width: 53%;
+    margin: 3rem;
+}
+
+.bread .butter .right-side p {
+    margin: 1.1rem;
+    color: darkblue;
+    line-height: 1.2rem;
+}
+
+.dex .header {
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.dex .header h1 {
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 2.5rem;
+}
+
+.dex .content-side {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.dex .content-side .room {
+    text-align: start;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.2);
+    padding: 20px;
+    height: 20vh;
+    width: 60vh;
+    margin-left: 4rem;
+    border-radius: 30px;
+}
+
+.dex .content-side .room h3 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: darkblue;
+}
+
+.dex .content-side .room span {
+    font-size: 1.5rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: 20rem;
+    color: darkblue;
+    margin-bottom: 10rem;
+}
+
+.dex .content-side .room p {
+    margin-top: 1.5rem;
+    color: darkblue;
+    line-height: 1.2rem;
+}
+
+.main-boxer {
+    margin-top: 5rem;
+    height: 70vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    /* background-color: silver; */
+
+}
+
+.main-boxer .sub-boxer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 5rem;
+
+}
+
+.main-boxer .boxxxy {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.main-boxer .sub-boxer .boxer {
+
+    height: 20rem;
+    padding: 1rem;
+
+}
+
+.main-boxer .sub-boxer .boxer .headers {
+    text-align: center;
+}
+
+.main-boxer .sub-boxer .boxer .headers h2 {
+    text-shadow: 1px 3px 5px black;
+    color: darkblue;
+
+}
+
+.main-boxer .sub-boxer .boxer .logos {
+    color: darkblue;
+    text-shadow: 1px 3px 5px black;
+
+}
+
+.main-boxer .sub-boxer .boxer .logos span {
+    /* padding: 10px; */
+    color: darkblue;
+    text-shadow: 1px 3px 5px black;
+
+}
+
+.main-boxer .sub-boxer .boxer .contentt {
+    margin-top: 1.5rem;
+    color: darkblue;
+}
+
+.main-boxer .sub-boxer .boxer .icons {
+    margin-top: 2rem;
+}
+
+.main-boxer .sub-boxer .boxer .icons img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.main-boxer .sub-boxer .boxer .info-box {
+    margin-top: 1.5rem;
+}
+
+.main-boxer .sub-boxer .boxer .info-box .inside-box {
+    display: flex;
+}
+
+.main-boxer .sub-boxer .boxer .info-box .inside-box p {
+    margin-left: 10px;
+    color: darkblue;
+    /*    margin-bottom:10px ;*/
+}
+
+.main-boxer .sub-boxer .boxer .info-box .inside-box img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /*    margin-top: 1rem;*/
+}
+
+.main-boxer .sub-boxer .boxer .info-box .inside-box h4 {
+    margin-bottom: 2rem;
+}
